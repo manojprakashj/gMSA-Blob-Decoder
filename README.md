@@ -58,11 +58,9 @@ pyperclip>=1.9.0   # optional
 python3 gmsa_decoder.py
 ```
 
-You will be prompted for the blob, salt, and which key types to derive.
+You will be prompted for the blob, salt, and which key types to derive. (Used this tool in the HackTheBox - Season 10 PingPong Machine.)
 
 <img width="1557" height="658" alt="image" src="https://github.com/user-attachments/assets/947051eb-30d5-4b66-97d9-5cde09636c66" />
-
-Used this tool in the HackTheBox - Season 10 PingPong Machine.
 
 ---
 
