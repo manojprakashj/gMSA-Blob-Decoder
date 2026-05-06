@@ -59,7 +59,7 @@ def banner():
  \__, /_/  /_//____/_/  |_|  /_____/_/\____/_.___/  /_____/\___/\___/\____/\__,_/\___/_/
 /____/
 
-  gMSA Blob Decoder & Kerberos Key Derivation
+By ManojPrakash
 """
     print(f"{C.CYAN}{C.BOLD}{art}{C.RESET}")
 
