@@ -146,7 +146,7 @@ Offset  Size  Field
 
 The raw password bytes are fed into the Kerberos `string_to_key` function along with a salt (`REALM` + principal name) to produce AES session keys, or hashed with MD4 to produce the NT hash.
 
-This tool automates that derivation — useful when:
+This tool automates that derivation and useful when:
 - Auditing gMSA delegation misconfigurations
 - Validating Kerberos key derivation in lab environments
 - Post-exploitation analysis during authorised red team ops
@@ -179,7 +179,7 @@ Always obtain written permission from the asset owner before conducting security
 
 ## References
 
-- [MS-ADTS § 2.2.27  MSDS-ManagedPassword](https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-adts/a9019740-cce3-4b52-8df0-8a6ad6e9f2e2)
+- [MS-ADTS 2.2.27  MSDS-ManagedPassword](https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-adts/a9019740-cce3-4b52-8df0-8a6ad6e9f2e2)
 - [RFC 3962 AES Encryption for Kerberos 5](https://datatracker.ietf.org/doc/html/rfc3962)
 - [impacket Core AD/Kerberos library](https://github.com/fortra/impacket)
 - [gMSA Abuse The Hacker Recipes](https://www.thehacker.recipes/ad/movement/credentials/dumping/gmsa)
