@@ -1,8 +1,7 @@
-# gMSA Blob Decoder & Kerberos Key Derivation Tool
-# Requirements — Python 3.10+
+# Requirements Python 3.10+
 
 # Core dependency (Kerberos crypto + AD protocol support)
 impacket>=0.12.0
 
-# Optional — clipboard support (-c / --copy flag)
+# Optional clipboard support (-c / --copy flag)
 pyperclip>=1.9.0
