@@ -62,6 +62,7 @@ You will be prompted for the blob, salt, and which key types to derive.
 
 <img width="1557" height="658" alt="image" src="https://github.com/user-attachments/assets/947051eb-30d5-4b66-97d9-5cde09636c66" />
 
+Used this tool in the HackTheBox - Season 10 PingPong Machine.
 
 ---
 
@@ -164,7 +165,7 @@ The Kerberos salt for a gMSA is typically:
 Example: account `svc_app$` in domain `corp.local` →  
 salt = `CORP.LOCALsvc_app`
 
-Some environments append `$` — try both if derivation fails.
+Some environments append `$` try both if derivation fails.
 
 ---
 
