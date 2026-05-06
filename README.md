@@ -89,7 +89,7 @@ python3 gmsa_decoder.py -b <blob> -s <salt> [options]
 
 ## Examples
 
-### Basic — AES-256 only
+### Basic AES-256 only
 
 ```bash
 python3 gmsa_decoder.py \
@@ -176,7 +176,7 @@ Always obtain written permission from the asset owner before conducting security
 
 ## References
 
-- [MS-ADTS § 2.2.27 — MSDS-ManagedPassword](https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-adts/a9019740-cce3-4b52-8df0-8a6ad6e9f2e2)
-- [RFC 3962 — AES Encryption for Kerberos 5](https://datatracker.ietf.org/doc/html/rfc3962)
-- [impacket — Core AD/Kerberos library](https://github.com/fortra/impacket)
-- [gMSA Abuse — The Hacker Recipes](https://www.thehacker.recipes/ad/movement/credentials/dumping/gmsa)
+- [MS-ADTS § 2.2.27  MSDS-ManagedPassword](https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-adts/a9019740-cce3-4b52-8df0-8a6ad6e9f2e2)
+- [RFC 3962 AES Encryption for Kerberos 5](https://datatracker.ietf.org/doc/html/rfc3962)
+- [impacket Core AD/Kerberos library](https://github.com/fortra/impacket)
+- [gMSA Abuse The Hacker Recipes](https://www.thehacker.recipes/ad/movement/credentials/dumping/gmsa)
