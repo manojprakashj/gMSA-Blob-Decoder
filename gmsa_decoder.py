@@ -18,7 +18,7 @@ import logging
 import struct
 import sys
 from binascii import unhexlify
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 
 try:
@@ -183,7 +183,7 @@ def print_results(keys: dict, salt: str, blob_type: str, args):
     print(f"{'─'*54}")
     print(f"  Salt          : {C.YELLOW}{salt}{C.RESET}")
     print(f"  Blob type     : {C.DIM}{blob_type}{C.RESET}")
-    print(f"  Timestamp     : {C.DIM}{datetime.utcnow().isoformat()}Z{C.RESET}")
+    print(f"  Timestamp     : {C.DIM}{datetime.now(timezone.utc).isoformat()}Z{C.RESET}")
     print(f"{'─'*54}")
 
     key_labels = {
@@ -209,7 +209,7 @@ def print_results(keys: dict, salt: str, blob_type: str, args):
 
 def save_output(keys: dict, salt: str, blob_type: str, out_path: Path):
     data = {
-        "timestamp" : datetime.utcnow().isoformat() + "Z",
+        "timestamp" : datetime.now(timezone.utc).isoformat() + "Z",
         "salt"      : salt,
         "blob_type" : blob_type,
         "keys"      : keys,
